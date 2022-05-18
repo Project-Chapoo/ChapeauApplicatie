@@ -54,6 +54,7 @@
             this.btnAddTip.TabIndex = 1;
             this.btnAddTip.Text = "+";
             this.btnAddTip.UseVisualStyleBackColor = true;
+            this.btnAddTip.Click += new System.EventHandler(this.btnAddTip_Click);
             // 
             // txtOrder
             // 
