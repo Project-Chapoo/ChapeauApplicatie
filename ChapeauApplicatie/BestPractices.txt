@@ -1,0 +1,35 @@
+Source: "https://www.c-sharpcorner.com/blogs/c-sharp-coding-guidelines-and-best-practices-v10"
+
+Please revert to this source for the full documentation
+
+Coding naming:
+
+Class == CamelCasing
+Method == CamelCasing
+Parameters == pascalCasing
+Interface == "I" prefix + CamelCasing
+Local Variables == pascalCasing
+Member Variables == "_" prefix + pascalCasing
+Boolean == "is" prefix + CamelCasing
+
+Windows Forms prefixes:
+
+Label == lbl
+TextBox == txt
+DataGrid == grd
+Button == btn
+ImageButton == imb
+Hyperlink == hyp
+DropDownList == ddl
+ListBox == lst
+DataList == dtl
+Repeater == rep
+Checkbox == chk
+CheckBoxList == cbl
+RadioButton == rdo
+RadioButtonList == rbl
+Image == img
+Panel == pnl
+PlaceHolder == phd
+Table == tbl
+Validators == val
