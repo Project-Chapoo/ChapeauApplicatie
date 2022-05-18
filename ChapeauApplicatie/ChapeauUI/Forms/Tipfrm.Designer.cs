@@ -98,6 +98,7 @@
             this.btnPayment.TabIndex = 8;
             this.btnPayment.Text = "Payment";
             this.btnPayment.UseVisualStyleBackColor = true;
+            this.btnPayment.Click += new System.EventHandler(this.btnPayment_Click);
             // 
             // txtbTip
             // 
@@ -106,6 +107,7 @@
             this.txtbTip.PlaceholderText = "The extra amount / the new target";
             this.txtbTip.Size = new System.Drawing.Size(200, 23);
             this.txtbTip.TabIndex = 12;
+            this.txtbTip.TextChanged += new System.EventHandler(this.txtbTip_TextChanged);
             // 
             // btnAddTip
             // 
@@ -125,6 +127,7 @@
             this.btnBack.TabIndex = 13;
             this.btnBack.Text = "<-";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // Tipfrm
             // 

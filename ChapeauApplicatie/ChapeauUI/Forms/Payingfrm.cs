@@ -23,6 +23,14 @@ namespace ChapeauUI.Forms
         {
             InitializeComponent();
             this.tip = tip;
-        }             
+        }
+
+        private void btnAddTip_Click(object sender, EventArgs e)
+        {
+            Tipfrm tf = new Tipfrm(5);
+            this.Hide();
+            tf.Closed += (s, args) => this.Close();
+            tf.Show();
+        }
     }
 }

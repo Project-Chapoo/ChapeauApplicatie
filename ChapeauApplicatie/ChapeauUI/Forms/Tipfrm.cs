@@ -21,11 +21,25 @@ namespace ChapeauUI.Forms
         {
             InitializeComponent();
             this.currentTotalAmount = currentTotalAmount;
+            btnAddTip.Enabled = false;
         }
 
+        // validate user entry for x euro and sends the tip to the paying form
         private void btnAddTip_Click(object sender, EventArgs e)
         {
-            double tip = Convert.ToDouble(txtbTip.Text);
+            double tip = 0;
+            
+            // try to convert text to double and if it fails, show error message
+            try
+            {
+                tip = Convert.ToDouble(txtbTip.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Please enter a valid tip amount: " + ex);
+                return;
+            }
+
             
             if (tip > currentTotalAmount)
             {
@@ -38,6 +52,7 @@ namespace ChapeauUI.Forms
             }
         }
 
+        // validate user entry for 2 euro and sends the tip to the paying form
         private void btnTwoEuro_Click(object sender, EventArgs e)
         {
             if (validateUserEntry(TwoEuroTip))
@@ -46,6 +61,7 @@ namespace ChapeauUI.Forms
             }
         }
 
+        // validate user entry for 5 euro and sends the tip to the paying form
         private void btnFiveEuro_Click(object sender, EventArgs e)
         {
             if (validateUserEntry(FiveEuroTip))
@@ -53,7 +69,8 @@ namespace ChapeauUI.Forms
                 OpenPayingFormWithTip(FiveEuroTip);
             }
         }
-        
+
+        // validate user entry for 10 euro and sends the tip to the paying form
         private void btnTenEuro_Click(object sender, EventArgs e)
         {
             if (validateUserEntry(TenEuroTip))
@@ -61,7 +78,8 @@ namespace ChapeauUI.Forms
                 OpenPayingFormWithTip(TenEuroTip);
             }
         }
-        
+
+        // Validates if the user wants to add specific tip amount to the total check
         private bool validateUserEntry(double tip)
         {
             bool isValidated = false;
@@ -72,10 +90,36 @@ namespace ChapeauUI.Forms
             }
             return isValidated;
         }
+
+        // Opens the paying form with the tip amount
         private void OpenPayingFormWithTip(double tip)
         {
             Payingfrm pf = new Payingfrm(tip);
-            this.Close();
+            this.Hide();
+            pf.Closed += (s, args) => this.Close();
+            pf.Show();
+        }
+
+        // Turns on the button when the textbox is not empty
+        private void txtbTip_TextChanged(object sender, EventArgs e)
+        {
+            btnAddTip.Enabled = true;
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            Payingfrm pf = new Payingfrm();
+            this.Hide();
+            pf.Closed += (s, args) => this.Close();
+            pf.Show();
+        }
+
+        private void btnPayment_Click(object sender, EventArgs e)
+        {
+            Payingfrm pf = new Payingfrm();
+            this.Hide();
+            pf.Closed += (s, args) => this.Close();
+            pf.Show();
         }
     }
 }
