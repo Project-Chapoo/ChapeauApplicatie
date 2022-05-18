@@ -12,9 +12,17 @@ namespace ChapeauUI.Forms
 {
     public partial class Payingfrm : Form
     {
+        private double tip;
+        
         public Payingfrm()
         {
             InitializeComponent();
         }
+
+        public Payingfrm(double tip)
+        {
+            InitializeComponent();
+            this.tip = tip;
+        }             
     }
 }
