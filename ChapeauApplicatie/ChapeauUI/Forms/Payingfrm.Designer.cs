@@ -45,6 +45,7 @@
             this.btnPay.TabIndex = 0;
             this.btnPay.Text = "Pay";
             this.btnPay.UseVisualStyleBackColor = true;
+            this.btnPay.Click += new System.EventHandler(this.btnPay_Click);
             // 
             // btnAddTip
             // 
@@ -54,6 +55,7 @@
             this.btnAddTip.TabIndex = 1;
             this.btnAddTip.Text = "+";
             this.btnAddTip.UseVisualStyleBackColor = true;
+            this.btnAddTip.Click += new System.EventHandler(this.btnAddTip_Click);
             // 
             // txtOrder
             // 
@@ -71,6 +73,7 @@
             this.btnBack.TabIndex = 4;
             this.btnBack.Text = "<-";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnPayment
             // 
@@ -81,6 +84,7 @@
             this.btnPayment.TabIndex = 5;
             this.btnPayment.Text = "Payment";
             this.btnPayment.UseVisualStyleBackColor = true;
+            this.btnPayment.Click += new System.EventHandler(this.btnPayment_Click);
             // 
             // btnOrderStatus
             // 
@@ -91,6 +95,7 @@
             this.btnOrderStatus.TabIndex = 6;
             this.btnOrderStatus.Text = "Order Status";
             this.btnOrderStatus.UseVisualStyleBackColor = true;
+            this.btnOrderStatus.Click += new System.EventHandler(this.btnOrderStatus_Click);
             // 
             // btnMenus
             // 
@@ -101,6 +106,7 @@
             this.btnMenus.TabIndex = 7;
             this.btnMenus.Text = "Menu\'s";
             this.btnMenus.UseVisualStyleBackColor = true;
+            this.btnMenus.Click += new System.EventHandler(this.btnMenus_Click);
             // 
             // Payingfrm
             // 
