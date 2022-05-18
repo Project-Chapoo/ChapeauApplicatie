@@ -15,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other files", "Other files"
 	ProjectSection(SolutionItems) = preProject
 		BestPractices.txt = BestPractices.txt
 		FrankReadMe.txt = FrankReadMe.txt
+		GithubProcedure.txt = GithubProcedure.txt
 	EndProjectSection
 EndProject
 Global

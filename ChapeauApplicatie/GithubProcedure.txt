@@ -1,0 +1,21 @@
+Source: "https://nvie.com/posts/a-successful-git-branching-model/"
+
+Please revert to this source for the full documentation
+
+-- We will work via the 4 eyes principle:
+This means that if you try and merge branches together 2 people need to look at at before you are allow to do so.
+
+for example: You just finished the 
+
+-- Create a branch for every feature of this application:
+Every time you are going to work on a new feature for the application you will create a new branch based on the development branch
+
+for example: You are going to make a login screen you create a new branch and name it login-LUKE (topic-NAME)
+
+-- Delete branches after feature completion:
+After a succesfull pull to the development branch please delete your feature branch and create a new one for your next feature
+
+-- Dont touch the MAIN branch:
+The main branch is the most essential branch of them all if the main branch is gone we can almost start over.
+
+
