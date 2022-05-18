@@ -32,48 +32,84 @@
             this.btnAddTip = new System.Windows.Forms.Button();
             this.txtOrder = new System.Windows.Forms.ListView();
             this.btnBack = new System.Windows.Forms.Button();
+            this.btnPayment = new System.Windows.Forms.Button();
+            this.btnOrderStatus = new System.Windows.Forms.Button();
+            this.btnMenus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnPay
             // 
-            this.btnPay.Location = new System.Drawing.Point(148, 190);
+            this.btnPay.Location = new System.Drawing.Point(32, 168);
             this.btnPay.Name = "btnPay";
-            this.btnPay.Size = new System.Drawing.Size(43, 23);
+            this.btnPay.Size = new System.Drawing.Size(77, 39);
             this.btnPay.TabIndex = 0;
             this.btnPay.Text = "Pay";
             this.btnPay.UseVisualStyleBackColor = true;
             // 
             // btnAddTip
             // 
-            this.btnAddTip.Location = new System.Drawing.Point(206, 190);
+            this.btnAddTip.Location = new System.Drawing.Point(131, 168);
             this.btnAddTip.Name = "btnAddTip";
-            this.btnAddTip.Size = new System.Drawing.Size(23, 23);
+            this.btnAddTip.Size = new System.Drawing.Size(42, 39);
             this.btnAddTip.TabIndex = 1;
             this.btnAddTip.Text = "+";
             this.btnAddTip.UseVisualStyleBackColor = true;
             // 
             // txtOrder
             // 
-            this.txtOrder.Location = new System.Drawing.Point(131, 87);
+            this.txtOrder.Location = new System.Drawing.Point(32, 53);
             this.txtOrder.Name = "txtOrder";
-            this.txtOrder.Size = new System.Drawing.Size(121, 97);
+            this.txtOrder.Size = new System.Drawing.Size(141, 97);
             this.txtOrder.TabIndex = 3;
             this.txtOrder.UseCompatibleStateImageBehavior = false;
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(131, 58);
+            this.btnBack.Location = new System.Drawing.Point(12, 12);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(23, 23);
             this.btnBack.TabIndex = 4;
             this.btnBack.Text = "<-";
             this.btnBack.UseVisualStyleBackColor = true;
             // 
+            // btnPayment
+            // 
+            this.btnPayment.Location = new System.Drawing.Point(9, 233);
+            this.btnPayment.Margin = new System.Windows.Forms.Padding(0);
+            this.btnPayment.Name = "btnPayment";
+            this.btnPayment.Size = new System.Drawing.Size(68, 39);
+            this.btnPayment.TabIndex = 5;
+            this.btnPayment.Text = "Payment";
+            this.btnPayment.UseVisualStyleBackColor = true;
+            // 
+            // btnOrderStatus
+            // 
+            this.btnOrderStatus.Location = new System.Drawing.Point(145, 233);
+            this.btnOrderStatus.Margin = new System.Windows.Forms.Padding(0);
+            this.btnOrderStatus.Name = "btnOrderStatus";
+            this.btnOrderStatus.Size = new System.Drawing.Size(68, 39);
+            this.btnOrderStatus.TabIndex = 6;
+            this.btnOrderStatus.Text = "Order Status";
+            this.btnOrderStatus.UseVisualStyleBackColor = true;
+            // 
+            // btnMenus
+            // 
+            this.btnMenus.Location = new System.Drawing.Point(77, 233);
+            this.btnMenus.Margin = new System.Windows.Forms.Padding(0);
+            this.btnMenus.Name = "btnMenus";
+            this.btnMenus.Size = new System.Drawing.Size(68, 39);
+            this.btnMenus.TabIndex = 7;
+            this.btnMenus.Text = "Menu\'s";
+            this.btnMenus.UseVisualStyleBackColor = true;
+            // 
             // Payingfrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(224, 281);
+            this.Controls.Add(this.btnMenus);
+            this.Controls.Add(this.btnOrderStatus);
+            this.Controls.Add(this.btnPayment);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.txtOrder);
             this.Controls.Add(this.btnAddTip);
@@ -90,5 +126,8 @@
         private Button btnAddTip;
         private ListView txtOrder;
         private Button btnBack;
+        private Button btnPayment;
+        private Button btnOrderStatus;
+        private Button btnMenus;
     }
 }
