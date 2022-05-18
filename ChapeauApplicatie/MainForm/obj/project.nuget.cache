@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D0g+A/2po9Xok33JrOcvXELDkY5SxFmfK1q3g+hiWg30oEofvMOhO8CWrn91zBoH5BC6/Ri+2TJZI4pns86VtQ==",
+  "dgSpecHash": "n3DHHjsnEFFDQx1fcjftFJzx8H+OzqeG4HHCkDi3sZqQKGh2y/WT6oDH2AheaGTli9Sm4VSAd1w+ZONBijaDFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\MainForm\\MainForm.csproj",
+  "projectFilePath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\MainForm\\UI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
