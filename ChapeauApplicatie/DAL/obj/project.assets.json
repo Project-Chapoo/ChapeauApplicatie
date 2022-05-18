@@ -707,9 +707,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\DAL\\DAL.csproj",
-      "projectName": "DAL",
-      "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\DAL\\ChapeauDAL.csproj",
+      "projectName": "ChapeauDAL",
+      "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\DAL\\ChapeauDAL.csproj",
       "packagesPath": "C:\\Users\\lukeh\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\DAL\\obj\\",
       "projectStyle": "PackageReference",

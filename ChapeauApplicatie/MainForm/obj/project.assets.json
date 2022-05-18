@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\MainForm\\UI.csproj",
-      "projectName": "UI",
-      "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\MainForm\\UI.csproj",
+      "projectUniqueName": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\MainForm\\ChapeauUI.csproj",
+      "projectName": "ChapeauUI",
+      "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\MainForm\\ChapeauUI.csproj",
       "packagesPath": "C:\\Users\\lukeh\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\MainForm\\obj\\",
       "projectStyle": "PackageReference",

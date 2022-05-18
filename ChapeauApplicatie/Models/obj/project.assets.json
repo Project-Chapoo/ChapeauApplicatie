@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\Models\\Models.csproj",
-      "projectName": "Models",
-      "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\Models\\ChapeauModels.csproj",
+      "projectName": "ChapeauModels",
+      "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\Models\\ChapeauModels.csproj",
       "packagesPath": "C:\\Users\\lukeh\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\Models\\obj\\",
       "projectStyle": "PackageReference",

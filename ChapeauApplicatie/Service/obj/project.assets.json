@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\Service\\Service.csproj",
-      "projectName": "Service",
-      "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\Service\\ChapeauService.csproj",
+      "projectName": "ChapeauService",
+      "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\Service\\ChapeauService.csproj",
       "packagesPath": "C:\\Users\\lukeh\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\Service\\obj\\",
       "projectStyle": "PackageReference",

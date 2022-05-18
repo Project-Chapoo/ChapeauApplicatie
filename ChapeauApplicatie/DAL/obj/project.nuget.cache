@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1GJULXigQQrFqlh2NkgFm1ERGWRjqtohEl7eivLHzyM8VMNtJyUk9TOhMcaiUvqmFYwqjcJVN87EfOfP2HZOhw==",
+  "dgSpecHash": "6VMmfbhqHpmQXm0puolZD65fRiLVDWoevFrrX18Yas9a+XJBh5U+H/4kM5KueuOu0Vd5NlVwBFWNw5FwvshswQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\DAL\\ChapeauDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lukeh\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\lukeh\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
