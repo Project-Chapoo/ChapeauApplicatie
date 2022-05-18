@@ -48,7 +48,6 @@ C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\bi
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\bin\Debug\net6.0-windows\ChapeauDAL.pdb
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\bin\Debug\net6.0-windows\ChapeauDAL.dll.config
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.csproj.AssemblyReference.cache
-C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\MainForm.Form1.resources
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.csproj.GenerateResource.cache
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.AssemblyInfoInputs.cache
@@ -62,3 +61,4 @@ C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\ob
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ref\ChapeauUI.dll
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.Forms.Payingfrm.resources
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.Forms.Tipfrm.resources
+C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.Mainfrm.resources

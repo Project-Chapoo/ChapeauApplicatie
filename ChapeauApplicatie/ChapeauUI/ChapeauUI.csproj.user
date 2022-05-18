@@ -7,7 +7,7 @@
     <Compile Update="Forms\Tipfrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Mainfrm.cs">
+    <Compile Update="Forms\Mainfrm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
