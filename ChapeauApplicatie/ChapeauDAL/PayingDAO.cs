@@ -9,7 +9,7 @@ namespace ChapeauDAL
     {
         public List<Bill> GetBills()
         {
-            string query = "SQLQUERY";
+            string query = "Get FROM [dbo].[Order]";
             SqlParameter[] sqlParameters = new SqlParameter[0];
             return ReadTables(ExecuteSelectQuery(query, sqlParameters));
         }
@@ -22,11 +22,7 @@ namespace ChapeauDAL
             {
                 Bill billItem = new Bill();
                 {
-                    billItem.EmployeeID = (int)dr["EmployeeID"];
-                    billItem.ReservationID = (int)dr["ReservationID"]; 
-                    billItem.TableID = (int)dr["TableID"];
-                    billItem.Commentary = (string)dr["Commentary"];
-                    billItem.DateAndTime = (DateTime)dr["DateAndTime"];
+
                 }
                 bill.Add(billItem);
             }

@@ -13,5 +13,11 @@ namespace ChapeauModels
         public int TableID { get; set; }
         public string Commentary { get; set; }
         public DateTime DateAndTime { get; set; }
+
+        public Bill(int tableID)
+        {
+            TableID = tableID;
+            DateAndTime = DateTime.Now;
+        }
     }
 }
