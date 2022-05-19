@@ -13,11 +13,15 @@ namespace ChapeauModels
         public int TableID { get; set; }
         public string Commentary { get; set; }
         public DateTime DateAndTime { get; set; }
+        public List<BillItem> billItems { get; set; }
 
-        public Bill(int tableID)
+        public Bill(int tableID, List<BillItem> billItems)
         {
             TableID = tableID;
             DateAndTime = DateTime.Now;
+            this.billItems = billItems;
         }
     }
+    
+    
 }
