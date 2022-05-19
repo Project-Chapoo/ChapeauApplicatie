@@ -7,26 +7,53 @@ namespace ChapeauDAL
 {
     public class PayingDAO : BaseDao
     {
-        public List<Bill> GetBills()
+        public Bill GetOrderInfo()
         {
-            string query = "Get FROM [dbo].[Order]";
+            string query = "SELECT Quantity, [Description], Price, Alcohol" +
+                            "FROM[dbo].[Order] AS O " +
+                            "JOIN[dbo].[OrderItem] AS OI ON O.OrderID = OI.OrderID" +
+                            "JOIN[dbo].[MenuItem] AS MI ON OI.MenuItemID = MI.MenuItemID" +
+                            "JOIN[dbo].[Tables] AS T ON O.TableID = T.TableID" +
+                            "JOIN[dbo].[Employee] AS E ON T.EmployeeID = E.EmployeeID";
             SqlParameter[] sqlParameters = new SqlParameter[0];
-            return ReadTables(ExecuteSelectQuery(query, sqlParameters));
+            return ReadTablesGetOrderInfo(ExecuteSelectQuery(query, sqlParameters));
         }
 
-        private List<Bill> ReadTables(DataTable dataTable)
+        private Bill ReadTablesGetOrderInfo(DataTable dataTable)
         {
-            List<Bill> bill = new List<Bill>();
-
-            foreach(DataRow dr in dataTable.Rows)
+            Bill bill = new Bill();
+            int currentItemID = 1;
+            foreach (DataRow dr in dataTable.Rows)
             {
-                Bill billItem = new Bill();
-                {
 
-                }
-                bill.Add(billItem);
             }
             return bill;
+        }
+
+        public List<BillItem> GetOrderItems()
+        {
+            string query = "SELECT Quantity, [Description], Price, Alcohol FROM[dbo].[OrderItem] AS O " +
+                            "JOIN[dbo].[MenuItem] AS M ON O.MenuItemID = M.MenuItemID; ";
+            SqlParameter[] sqlParameters = new SqlParameter[0];
+            return ReadTablesBillItems(ExecuteSelectQuery(query, sqlParameters));
+        }
+
+        private List<BillItem> ReadTablesBillItems(DataTable dataTable)
+        {
+            List<BillItem> billItems = new List<BillItem>();
+            int currentItemID = 1;
+            foreach(DataRow dr in dataTable.Rows)
+            {
+                BillItem billItem = new BillItem();
+                billItem.BillItemID = currentItemID;
+                billItem.Quantity = (int)dr["Quantity"];
+                billItem.Description = (string)dr["Description"];
+                billItem.Price = (double)dr["Price"];
+                billItem.Alcohol = (bool)dr["Alcohol"];
+                billItems.Add(billItem);
+                currentItemID++;
+            }
+            return billItems;
         }
 
         public void AddNewBill(Bill bill)

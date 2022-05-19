@@ -2,9 +2,10 @@
 {
     public class BillItem
     {
-        public int BillID { get; set; }
-        public int ItemID { get; set; }
+        public int BillItemID{ get; set; }
         public int Quantity { get; set; }
+        public string Description { get; set; }
         public double Price { get; set; }
+        public bool Alcohol { get; set; }
     }
 }
