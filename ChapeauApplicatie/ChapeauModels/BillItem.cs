@@ -7,5 +7,14 @@
         public string Description { get; set; }
         public double Price { get; set; }
         public bool Alcohol { get; set; }
+
+        public BillItem(int billItemID, int quantity, string description, double price, bool alcohol)
+        {
+            BillItemID = billItemID;
+            Quantity = quantity;
+            Description = description;
+            Price = price;
+            Alcohol = alcohol;
+        }
     }
 }

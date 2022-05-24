@@ -9,12 +9,7 @@ namespace ChapeauDAL
     {
         public Bill GetOrderInfo()
         {
-            string query = "SELECT Quantity, [Description], Price, Alcohol" +
-                            "FROM[dbo].[Order] AS O " +
-                            "JOIN[dbo].[OrderItem] AS OI ON O.OrderID = OI.OrderID" +
-                            "JOIN[dbo].[MenuItem] AS MI ON OI.MenuItemID = MI.MenuItemID" +
-                            "JOIN[dbo].[Tables] AS T ON O.TableID = T.TableID" +
-                            "JOIN[dbo].[Employee] AS E ON T.EmployeeID = E.EmployeeID";
+            string query = "";
             SqlParameter[] sqlParameters = new SqlParameter[0];
             return ReadTablesGetOrderInfo(ExecuteSelectQuery(query, sqlParameters));
         }
@@ -27,6 +22,7 @@ namespace ChapeauDAL
             {
 
             }
+            bill.billItems = GetOrderItems();
             return bill;
         }
 
