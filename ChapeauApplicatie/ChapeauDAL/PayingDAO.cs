@@ -7,13 +7,15 @@ namespace ChapeauDAL
 {
     public class PayingDAO : BaseDao
     {
-        public Bill GetOrderInfo()
+        public Bill GetOrderInfo(int orderID)
         {
             string query = "SELECT O.OrderID, T.TableID, E.FirstName, E.LastName " +
                             "FROM[dbo].[Order] AS O " +
                             "JOIN[dbo].[Tables] AS T ON O.TableID = T.TableID" +
-                            "JOIN[dbo].[Employee] AS E ON T.EmployeeID = E.EmployeeID";
-            SqlParameter[] sqlParameters = new SqlParameter[0];
+                            "JOIN[dbo].[Employee] AS E ON T.EmployeeID = E.EmployeeID" +
+                            "WHERE O.OrderID = @orderID";
+            SqlParameter[] sqlParameters = new SqlParameter[1];
+            sqlParameters[0] = new SqlParameter("@orderID", SqlDbType.Int);
             return ReadTablesGetOrderInfo(ExecuteSelectQuery(query, sqlParameters));
         }
 

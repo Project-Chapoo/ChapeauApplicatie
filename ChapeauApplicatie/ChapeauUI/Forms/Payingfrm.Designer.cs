@@ -39,18 +39,20 @@
             // 
             // btnPay
             // 
-            this.btnPay.Location = new System.Drawing.Point(32, 168);
+            this.btnPay.Location = new System.Drawing.Point(59, 358);
+            this.btnPay.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnPay.Name = "btnPay";
-            this.btnPay.Size = new System.Drawing.Size(77, 39);
+            this.btnPay.Size = new System.Drawing.Size(143, 83);
             this.btnPay.TabIndex = 0;
             this.btnPay.Text = "Pay";
             this.btnPay.UseVisualStyleBackColor = true;
             // 
             // btnAddTip
             // 
-            this.btnAddTip.Location = new System.Drawing.Point(131, 168);
+            this.btnAddTip.Location = new System.Drawing.Point(243, 358);
+            this.btnAddTip.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnAddTip.Name = "btnAddTip";
-            this.btnAddTip.Size = new System.Drawing.Size(42, 39);
+            this.btnAddTip.Size = new System.Drawing.Size(78, 83);
             this.btnAddTip.TabIndex = 1;
             this.btnAddTip.Text = "+";
             this.btnAddTip.UseVisualStyleBackColor = true;
@@ -58,56 +60,58 @@
             // 
             // txtOrder
             // 
-            this.txtOrder.Location = new System.Drawing.Point(32, 53);
+            this.txtOrder.Location = new System.Drawing.Point(59, 113);
+            this.txtOrder.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtOrder.Name = "txtOrder";
-            this.txtOrder.Size = new System.Drawing.Size(141, 97);
+            this.txtOrder.Size = new System.Drawing.Size(258, 202);
             this.txtOrder.TabIndex = 3;
             this.txtOrder.UseCompatibleStateImageBehavior = false;
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(12, 12);
+            this.btnBack.Location = new System.Drawing.Point(22, 26);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(23, 23);
+            this.btnBack.Size = new System.Drawing.Size(43, 49);
             this.btnBack.TabIndex = 4;
             this.btnBack.Text = "<-";
             this.btnBack.UseVisualStyleBackColor = true;
             // 
             // btnPayment
             // 
-            this.btnPayment.Location = new System.Drawing.Point(9, 233);
+            this.btnPayment.Location = new System.Drawing.Point(17, 497);
             this.btnPayment.Margin = new System.Windows.Forms.Padding(0);
             this.btnPayment.Name = "btnPayment";
-            this.btnPayment.Size = new System.Drawing.Size(68, 39);
+            this.btnPayment.Size = new System.Drawing.Size(126, 83);
             this.btnPayment.TabIndex = 5;
             this.btnPayment.Text = "Payment";
             this.btnPayment.UseVisualStyleBackColor = true;
             // 
             // btnOrderStatus
             // 
-            this.btnOrderStatus.Location = new System.Drawing.Point(145, 233);
+            this.btnOrderStatus.Location = new System.Drawing.Point(269, 497);
             this.btnOrderStatus.Margin = new System.Windows.Forms.Padding(0);
             this.btnOrderStatus.Name = "btnOrderStatus";
-            this.btnOrderStatus.Size = new System.Drawing.Size(68, 39);
+            this.btnOrderStatus.Size = new System.Drawing.Size(126, 83);
             this.btnOrderStatus.TabIndex = 6;
             this.btnOrderStatus.Text = "Order Status";
             this.btnOrderStatus.UseVisualStyleBackColor = true;
             // 
             // btnMenus
             // 
-            this.btnMenus.Location = new System.Drawing.Point(77, 233);
+            this.btnMenus.Location = new System.Drawing.Point(143, 497);
             this.btnMenus.Margin = new System.Windows.Forms.Padding(0);
             this.btnMenus.Name = "btnMenus";
-            this.btnMenus.Size = new System.Drawing.Size(68, 39);
+            this.btnMenus.Size = new System.Drawing.Size(126, 83);
             this.btnMenus.TabIndex = 7;
             this.btnMenus.Text = "Menu\'s";
             this.btnMenus.UseVisualStyleBackColor = true;
             // 
             // Payingfrm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(224, 281);
+            this.ClientSize = new System.Drawing.Size(431, 599);
             this.Controls.Add(this.btnMenus);
             this.Controls.Add(this.btnOrderStatus);
             this.Controls.Add(this.btnPayment);
@@ -115,8 +119,10 @@
             this.Controls.Add(this.txtOrder);
             this.Controls.Add(this.btnAddTip);
             this.Controls.Add(this.btnPay);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Payingfrm";
             this.Text = "Payingfrm";
+            this.Load += new System.EventHandler(this.Payingfrm_Load);
             this.ResumeLayout(false);
 
         }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ChapeauModels;
+using ChapeauService;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +27,7 @@ namespace ChapeauUI.Forms
             this.tip = tip;
         }
 
-        private void 
+        
 
         private void btnAddTip_Click(object sender, EventArgs e)
         {
@@ -33,6 +35,15 @@ namespace ChapeauUI.Forms
             this.Hide();
             tf.Closed += (s, args) => this.Close();
             tf.Show();
+        }
+
+        private void Payingfrm_Load(object sender, EventArgs e)
+        {
+            //TODO: Add code that loads Bill data to the table
+            PayingService ps = new PayingService();
+            Bill bill = ps.GetBill();
+
+            txtOrder.Items.Add(Convert.ToString(bill.OrderID));
         }
     }
 }
