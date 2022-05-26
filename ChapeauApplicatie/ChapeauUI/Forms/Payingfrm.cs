@@ -25,6 +25,8 @@ namespace ChapeauUI.Forms
             this.tip = tip;
         }
 
+        private void 
+
         private void btnAddTip_Click(object sender, EventArgs e)
         {
             Tipfrm tf = new Tipfrm(5);

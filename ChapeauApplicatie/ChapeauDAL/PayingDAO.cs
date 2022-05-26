@@ -9,7 +9,10 @@ namespace ChapeauDAL
     {
         public Bill GetOrderInfo()
         {
-            string query = "";
+            string query = "SELECT O.OrderID, T.TableID, E.FirstName, E.LastName " +
+                            "FROM[dbo].[Order] AS O " +
+                            "JOIN[dbo].[Tables] AS T ON O.TableID = T.TableID" +
+                            "JOIN[dbo].[Employee] AS E ON T.EmployeeID = E.EmployeeID";
             SqlParameter[] sqlParameters = new SqlParameter[0];
             return ReadTablesGetOrderInfo(ExecuteSelectQuery(query, sqlParameters));
         }
@@ -17,10 +20,13 @@ namespace ChapeauDAL
         private Bill ReadTablesGetOrderInfo(DataTable dataTable)
         {
             Bill bill = new Bill();
-            int currentItemID = 1;
             foreach (DataRow dr in dataTable.Rows)
             {
-
+                int orderID = (int)dr["OrderID"];
+                int tableID = (int)dr["TableID"];
+                string employeeFirstName = (string)dr["FirstName"];
+                string employeeLastName = (string)dr["LastName"];
+                bill = new Bill(orderID, tableID, employeeFirstName, employeeLastName);
             }
             bill.billItems = GetOrderItems();
             return bill;

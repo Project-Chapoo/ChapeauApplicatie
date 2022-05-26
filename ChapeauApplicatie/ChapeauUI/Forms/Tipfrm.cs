@@ -36,7 +36,7 @@ namespace ChapeauUI.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Please enter a valid tip amount: " + ex);
+                MessageBox.Show("Please enter a valid tip amount!\n" + ex , "Error!" );
                 return;
             }
 
