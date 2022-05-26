@@ -52,18 +52,18 @@ namespace ChapeauDAL
             return billItems;
         }
 
-        public void AddNewBill(Bill bill)
-        {
-            string query = "INSERT INTO [dbo].[Receipt](EmployeeID, ReservationID, TableID, Commentary, DateAndTime) VALUES(@EmployeeID, @ReservationID, @TableID, @Commentary, @DateAndTime)";
-            SqlParameter[] sqlParameters = {
-                new SqlParameter("@EmployeeID", SqlDbType.Int) { Value = bill.EmployeeID } , 
-                new SqlParameter("@ReservationID", SqlDbType.Int) { Value = bill.ReservationID }, 
-                new SqlParameter("@TableID", SqlDbType.Int) { Value = bill.TableID } , 
-                new SqlParameter("@Commentary", SqlDbType.VarChar) { Value = bill.Commentary }, 
-                new SqlParameter("@DateAndTime", SqlDbType.DateTime) { Value = bill.DateAndTime }
-            };
+        //public void AddNewBill(Bill bill)
+        //{
+        //    string query = "INSERT INTO [dbo].[Receipt](EmployeeID, ReservationID, TableID, Commentary, DateAndTime) VALUES(@EmployeeID, @ReservationID, @TableID, @Commentary, @DateAndTime)";
+        //    SqlParameter[] sqlParameters = {
+        //        new SqlParameter("@EmployeeID", SqlDbType.Int) { Value = bill.EmployeeID } , 
+        //        new SqlParameter("@ReservationID", SqlDbType.Int) { Value = bill.ReservationID }, 
+        //        new SqlParameter("@TableID", SqlDbType.Int) { Value = bill.TableID } , 
+        //        new SqlParameter("@Commentary", SqlDbType.VarChar) { Value = bill.Commentary }, 
+        //        new SqlParameter("@DateAndTime", SqlDbType.DateTime) { Value = bill.DateAndTime }
+        //    };
             
-            ExecuteEditQuery(query, sqlParameters);
-        }
+        //    ExecuteEditQuery(query, sqlParameters);
+        //}
     }
 }

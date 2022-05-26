@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ChapeauModels
+﻿namespace ChapeauModels
 {
     public class Bill
     {
@@ -12,12 +6,12 @@ namespace ChapeauModels
         public string EmployeeFullName { get; set; }
         public int OrderID { get; }
         public List<BillItem> billItems { get; set; }
-        public double SubTotalPrice 
+        public double SubTotalPrice
         {
-            get 
+            get
             {
                 return TotalPrice - SixPercentTaxPrice - TwentyOnePercentTaxPrice;
-            } 
+            }
         }
         public double SixPercentTaxPrice
         {
@@ -63,6 +57,8 @@ namespace ChapeauModels
         }
         public double TotalPrice { get; set; }
 
+        public Bill() { }
+
         public Bill(int tableID, int orderID, string employeeFirstName, string employeeLastName)
         {
             TableID = tableID;
@@ -74,10 +70,6 @@ namespace ChapeauModels
         public void AddTip(double tip)
         {
             billItems.Add(new BillItem(billItems.Count, 1, "fooi", tip, false));
-        }
-
-        public Bill()
-        {
         }
     }
 }

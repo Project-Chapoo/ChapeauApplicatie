@@ -8,6 +8,8 @@
         public double Price { get; set; }
         public bool Alcohol { get; set; }
 
+        public BillItem() { }
+
         public BillItem(int billItemID, int quantity, string description, double price, bool alcohol)
         {
             BillItemID = billItemID;
