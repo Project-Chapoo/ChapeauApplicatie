@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauDAL\\ChapeauDAL.csproj": {}
+    "C:\\Users\\-\\Source\\Repos\\Project-Chapoo\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauDAL\\ChapeauDAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauDAL\\ChapeauDAL.csproj": {
+    "C:\\Users\\-\\Source\\Repos\\Project-Chapoo\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauDAL\\ChapeauDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauDAL\\ChapeauDAL.csproj",
+        "projectUniqueName": "C:\\Users\\-\\Source\\Repos\\Project-Chapoo\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauDAL\\ChapeauDAL.csproj",
         "projectName": "ChapeauDAL",
-        "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauDAL\\ChapeauDAL.csproj",
-        "packagesPath": "C:\\Users\\lukeh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauDAL\\obj\\",
+        "projectPath": "C:\\Users\\-\\Source\\Repos\\Project-Chapoo\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauDAL\\ChapeauDAL.csproj",
+        "packagesPath": "C:\\Users\\-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\-\\Source\\Repos\\Project-Chapoo\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lukeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\-\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj": {
-                "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj"
+              "C:\\Users\\-\\Source\\Repos\\Project-Chapoo\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj": {
+                "projectPath": "C:\\Users\\-\\Source\\Repos\\Project-Chapoo\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj"
               }
             }
           }
@@ -68,21 +68,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj": {
+    "C:\\Users\\-\\Source\\Repos\\Project-Chapoo\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj",
+        "projectUniqueName": "C:\\Users\\-\\Source\\Repos\\Project-Chapoo\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj",
         "projectName": "ChapeauModels",
-        "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj",
-        "packagesPath": "C:\\Users\\lukeh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\obj\\",
+        "projectPath": "C:\\Users\\-\\Source\\Repos\\Project-Chapoo\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj",
+        "packagesPath": "C:\\Users\\-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\-\\Source\\Repos\\Project-Chapoo\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lukeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\-\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }
