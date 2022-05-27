@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\gebruiker\\.nuget\\packages\\": {}
+    "C:\\Users\\yara\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gebruiker\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj",
+      "projectUniqueName": "C:\\Users\\yara\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj",
       "projectName": "ChapeauModels",
-      "projectPath": "C:\\Users\\gebruiker\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj",
-      "packagesPath": "C:\\Users\\gebruiker\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gebruiker\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\obj\\",
+      "projectPath": "C:\\Users\\yara\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj",
+      "packagesPath": "C:\\Users\\yara\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yara\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
