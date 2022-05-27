@@ -756,19 +756,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lukeh\\.nuget\\packages\\": {}
+    "C:\\Users\\yara\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauUI\\ChapeauUI.csproj",
+      "projectUniqueName": "C:\\Users\\yara\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauUI\\ChapeauUI.csproj",
       "projectName": "ChapeauUI",
-      "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauUI\\ChapeauUI.csproj",
-      "packagesPath": "C:\\Users\\lukeh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauUI\\obj\\",
+      "projectPath": "C:\\Users\\yara\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauUI\\ChapeauUI.csproj",
+      "packagesPath": "C:\\Users\\yara\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yara\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauUI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\lukeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -782,11 +787,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj": {
-              "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj"
+            "C:\\Users\\yara\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj": {
+              "projectPath": "C:\\Users\\yara\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj"
             },
-            "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauService\\ChapeauService.csproj": {
-              "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauService\\ChapeauService.csproj"
+            "C:\\Users\\yara\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauService\\ChapeauService.csproj": {
+              "projectPath": "C:\\Users\\yara\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauService\\ChapeauService.csproj"
             }
           }
         }
@@ -818,7 +823,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

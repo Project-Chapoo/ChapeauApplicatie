@@ -10,3 +10,15 @@ C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\Models\obj\D
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\Models\obj\Debug\net6.0\refint\ChapeauModels.dll
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\Models\obj\Debug\net6.0\ChapeauModels.pdb
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\Models\obj\Debug\net6.0\ref\ChapeauModels.dll
+C:\Users\yara\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauModels\bin\Debug\net6.0\ChapeauModels.deps.json
+C:\Users\yara\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauModels\bin\Debug\net6.0\ChapeauModels.dll
+C:\Users\yara\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauModels\bin\Debug\net6.0\ChapeauModels.pdb
+C:\Users\yara\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauModels\obj\Debug\net6.0\ChapeauModels.csproj.AssemblyReference.cache
+C:\Users\yara\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauModels\obj\Debug\net6.0\ChapeauModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yara\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauModels\obj\Debug\net6.0\ChapeauModels.AssemblyInfoInputs.cache
+C:\Users\yara\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauModels\obj\Debug\net6.0\ChapeauModels.AssemblyInfo.cs
+C:\Users\yara\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauModels\obj\Debug\net6.0\ChapeauModels.csproj.CoreCompileInputs.cache
+C:\Users\yara\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauModels\obj\Debug\net6.0\ChapeauModels.dll
+C:\Users\yara\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauModels\obj\Debug\net6.0\refint\ChapeauModels.dll
+C:\Users\yara\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauModels\obj\Debug\net6.0\ChapeauModels.pdb
+C:\Users\yara\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauModels\obj\Debug\net6.0\ref\ChapeauModels.dll

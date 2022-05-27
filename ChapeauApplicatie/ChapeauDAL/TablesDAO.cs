@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 using ChapeauModels;
+using ChapeauApplicatie;
 
 namespace ChapeauDAL
 {
@@ -18,7 +19,7 @@ namespace ChapeauDAL
             return ReadTables(ExecuteSelectQuery(query, sqlParameters));
         }
         private List<Tables> ReadTables(DataTable dataTable)
-        {
+        { 
             List<Tables> tables = new List<Tables>();
 
             foreach (DataRow dr in dataTable.Rows)
@@ -34,19 +35,13 @@ namespace ChapeauDAL
             return tables;
         }
         public bool Reserved(int tafelNummer)
-        {
-            bool reserved = false;
-            List<Tables> tables = GetAllTables();
-            foreach(Tables t in tables)
-            {
-               
-                if (tafelNummer == t.tableId)
-                {
-                    reserved = t.reserved;
-                    return reserved;
-                }
-            }
-            return reserved;
+        { //niet alle tafels af in database, maar sql query zoeken en returnen
+
+            string query = "SELECT Reserved FROM Tables WHERE TableID = @tableID ";
+            SqlParameter[] sqlParameters = new SqlParameter[]{
+            new SqlParameter("@tableID", tafelNummer)};
+            List<Tables> reservedTable = ReadTables(ExecuteSelectQuery(query, sqlParameters));
+            return Convert.ToBoolean(reservedTable[0]);
         }
     }
 }

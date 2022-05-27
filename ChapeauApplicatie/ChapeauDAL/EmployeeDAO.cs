@@ -7,6 +7,7 @@ using ChapeauModels;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
+using ChapeauApplicatie;
 
 namespace ChapeauDAL
 {
@@ -37,16 +38,23 @@ namespace ChapeauDAL
             }
             return employees;
         }
-        public bool CheckEmployeeLogIn(string checkPassword)
+        public string CheckEmployeeLogIn(string checkPassword)
         {
-            List<EmployeeModel> employees = GetAllEmployees();
+            //try catch gezeur
+            string query = "SELECT FirstName FROM Employee WHERE LoginPassword = @loginPassword ";
+            SqlParameter[] sqlParameters = new SqlParameter[]{
+            new SqlParameter("@loginPassword", checkPassword)};
+            DataTable dataTable = ExecuteSelectQuery(query, sqlParameters);
 
-            foreach(EmployeeModel e in employees)
+            if(dataTable.Rows.Count > 0)
             {
-                if(checkPassword == e.loginPassword)
-                    return true;
+                DataRow dr = dataTable.Rows[0];
+                return dr.ToString();
             }
-            return false;
+            else
+            {
+                return "Wrong password";
+            }
         }
     }
 }
