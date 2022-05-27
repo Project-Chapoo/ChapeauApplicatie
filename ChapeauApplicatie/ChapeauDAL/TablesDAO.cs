@@ -14,12 +14,13 @@ namespace ChapeauDAL
     {
         public List<Tables> GetAllTables()
         {
-            string query = "SELECT TableID, Reserved, EmployeeID FROM Tables";
+            string query = "SELECT TableID, Reserved, EmployeeID FROM [tables]";
             SqlParameter[] sqlParameters = new SqlParameter[0];
             return ReadTables(ExecuteSelectQuery(query, sqlParameters));
         }
+
         private List<Tables> ReadTables(DataTable dataTable)
-        { 
+        {
             List<Tables> tables = new List<Tables>();
 
             foreach (DataRow dr in dataTable.Rows)

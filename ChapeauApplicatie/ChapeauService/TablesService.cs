@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ChapeauDAL;
 using ChapeauModels;
+using ChapeauDAL;
+
 
 namespace ChapeauService
 {
@@ -21,5 +22,12 @@ namespace ChapeauService
         {
             return tablesDb.Reserved(tafelNummer);
         }
+
+        public List<Tables> GetTables()
+        {
+            List<Tables> tables = tablesdb.GetAllTables();
+            return tables;
+        }
+
     }
 }

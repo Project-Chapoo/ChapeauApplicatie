@@ -8,8 +8,9 @@ namespace ChapeauModels
 {
     public class Tables
     {
-        public int tableId {get;set;}
-        public bool reserved { get;set;}
-        public int employeeId { get; set; }
+        public int tableID { get; set; }
+        public bool Reserved { get; set; }
+        public int EmployeeID { get; set; } 
+       
     }
 }
