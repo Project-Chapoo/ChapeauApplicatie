@@ -22,7 +22,6 @@ C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauServi
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauService\bin\Debug\net6.0\ChapeauDAL.dll
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauService\bin\Debug\net6.0\ChapeauModels.dll
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauService\bin\Debug\net6.0\ChapeauDAL.pdb
-C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauService\bin\Debug\net6.0\ChapeauDAL.dll.config
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauService\bin\Debug\net6.0\ChapeauModels.pdb
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauService\obj\Debug\net6.0\ChapeauService.csproj.AssemblyReference.cache
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauService\obj\Debug\net6.0\ChapeauService.GeneratedMSBuildEditorConfig.editorconfig

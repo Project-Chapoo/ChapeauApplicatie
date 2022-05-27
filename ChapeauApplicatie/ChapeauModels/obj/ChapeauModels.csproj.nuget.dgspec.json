@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gebruiker\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj": {}
+    "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gebruiker\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj": {
+    "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gebruiker\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj",
+        "projectUniqueName": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj",
         "projectName": "ChapeauModels",
-        "projectPath": "C:\\Users\\gebruiker\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj",
-        "packagesPath": "C:\\Users\\gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gebruiker\\Source\\Repos\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\obj\\",
+        "projectPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\ChapeauModels.csproj",
+        "packagesPath": "C:\\Users\\lukeh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukeh\\Documents\\GitHub\\ChapeauApplicatie\\ChapeauApplicatie\\ChapeauModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lukeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

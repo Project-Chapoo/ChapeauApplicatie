@@ -46,7 +46,6 @@ C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\bi
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\bin\Debug\net6.0-windows\ChapeauModels.pdb
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\bin\Debug\net6.0-windows\ChapeauService.pdb
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\bin\Debug\net6.0-windows\ChapeauDAL.pdb
-C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\bin\Debug\net6.0-windows\ChapeauDAL.dll.config
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.csproj.AssemblyReference.cache
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.csproj.GenerateResource.cache
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.GeneratedMSBuildEditorConfig.editorconfig
@@ -96,3 +95,5 @@ C:\Users\gebruiker\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\ob
 C:\Users\gebruiker\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.genruntimeconfig.cache
 C:\Users\gebruiker\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ref\ChapeauUI.dll
 C:\Users\gebruiker\Source\Repos\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\bin\Debug\net6.0-windows\ChapeauUI.dll.config
+C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\bin\Debug\net6.0-windows\ChapeauUI.dll.config
+C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.Forms.KeukenFrm.resources
