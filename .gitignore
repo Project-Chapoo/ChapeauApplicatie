@@ -3,6 +3,7 @@
 *.com
 *.class
 *.dll
+*.dpd
 *.exe
 *.o
 *.so
@@ -27,6 +28,9 @@
 *.log
 *.sql
 *.sqlite
+*.v2
+*.cache
+
 
 # OS generated files #
 ######################
