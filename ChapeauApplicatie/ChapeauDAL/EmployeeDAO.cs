@@ -7,7 +7,6 @@ using ChapeauModels;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
-using ChapeauApplicatie;
 
 namespace ChapeauDAL
 {

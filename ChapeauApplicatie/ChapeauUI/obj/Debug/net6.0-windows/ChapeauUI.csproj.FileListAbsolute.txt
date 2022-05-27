@@ -62,3 +62,8 @@ C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\ob
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\bin\Debug\net6.0-windows\ChapeauUI.dll.config
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.Forms.Tipfrm.resources
 C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.Mainfrm.resources
+C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.Forms.KeukenFrm.resources
+C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.KassaLogin.resources
+C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.PDAOrdering_Joey.resources
+C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.Properties.Resources.resources
+C:\Users\lukeh\Documents\GitHub\ChapeauApplicatie\ChapeauApplicatie\ChapeauUI\obj\Debug\net6.0-windows\ChapeauUI.TafelOverzicht.resources

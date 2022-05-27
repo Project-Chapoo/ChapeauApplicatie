@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 using ChapeauModels;
-using ChapeauApplicatie;
 
 namespace ChapeauDAL
 {

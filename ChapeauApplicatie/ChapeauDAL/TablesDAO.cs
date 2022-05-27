@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 using ChapeauModels;
-using ChapeauApplicatie;
 
 namespace ChapeauDAL
 {
@@ -27,9 +26,7 @@ namespace ChapeauDAL
             {
                 Tables table = new Tables()
                 {
-                    tableId = (int)dr["TableID"],
-                    reserved = (bool)dr["Reserved"],
-                    employeeId = (int)dr["EmployeeID"],
+
                 };
                 tables.Add(table);
             }

@@ -11,16 +11,16 @@ namespace ChapeauService
 {
     public class TablesService
     {
-        TablesDAO tablesDb;
+        TablesDAO tablesdb;
 
         public TablesService()
         {
-            this.tablesDb = new TablesDAO();
+            this.tablesdb = new TablesDAO();
         }
 
         public bool Reserved(int tafelNummer)
         {
-            return tablesDb.Reserved(tafelNummer);
+            return tablesdb.Reserved(tafelNummer);
         }
 
         public List<Tables> GetTables()
