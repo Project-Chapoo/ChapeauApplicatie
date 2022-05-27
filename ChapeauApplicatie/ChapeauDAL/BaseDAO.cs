@@ -2,7 +2,7 @@
 using System.Configuration;
 using System.Data.SqlClient;
 
-namespace ChapeauDAL
+namespace ChapeauApplicatie
 {
     public abstract class BaseDao
     {
