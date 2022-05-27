@@ -4,8 +4,5 @@
     <Compile Update="Mainfrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PDAOrdering-Joey.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>
