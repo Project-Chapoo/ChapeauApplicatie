@@ -9,13 +9,10 @@ namespace ChapeauDAL
     {
         public Bill GetOrderInfo(int orderID)
         {
-            string query = "SELECT O.OrderID, T.TableID, E.FirstName, E.LastName " +
-                            "FROM[dbo].[Order] AS O " +
-                            "JOIN[dbo].[Tables] AS T ON O.TableID = T.TableID" +
-                            "JOIN[dbo].[Employee] AS E ON T.EmployeeID = E.EmployeeID" +
-                            "WHERE O.OrderID = @orderID";
+            string query = "SELECT * FROM[dbo].[Order] AS O JOIN[dbo].[Tables] AS T ON O.TableID = T.TableID JOIN[dbo].[Employee] AS E ON T.EmployeeID = E.EmployeeID WHERE O.OrderID = @orderID";
+                            
             SqlParameter[] sqlParameters = new SqlParameter[1];
-            sqlParameters[0] = new SqlParameter("@orderID", SqlDbType.Int);
+            sqlParameters[0] = new SqlParameter("@orderID", SqlDbType.Int) { Value = orderID };
             return ReadTablesGetOrderInfo(ExecuteSelectQuery(query, sqlParameters));
         }
 
@@ -24,6 +21,8 @@ namespace ChapeauDAL
             Bill bill = new Bill();
             foreach (DataRow dr in dataTable.Rows)
             {
+
+                DataRow test = dr;
                 int orderID = (int)dr["OrderID"];
                 int tableID = (int)dr["TableID"];
                 string employeeFirstName = (string)dr["FirstName"];
@@ -52,7 +51,7 @@ namespace ChapeauDAL
                 billItem.BillItemID = currentItemID;
                 billItem.Quantity = (int)dr["Quantity"];
                 billItem.Description = (string)dr["Description"];
-                billItem.Price = (double)dr["Price"];
+                billItem.Price = Convert.ToDouble(dr["Price"]);
                 billItem.Alcohol = (bool)dr["Alcohol"];
                 billItems.Add(billItem);
                 currentItemID++;
